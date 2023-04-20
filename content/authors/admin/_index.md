@@ -76,3 +76,7 @@ highlight_name: true
 
 <h1> About Me </h1>
 I am a first-year Ph.D. student studying computer science in the Peking University <a href=https://github.com/pkusys> Computer Systems Research Group </a> where I am advised by <a href=https://xinjin.github.io> Xin Jin </a>.
+
+I have a broad interest in building efficient systems for training and serving deep learning models, with a primary focus on large language models (LLMs) currently.
+
+I am also an enthusiastic self-learner and interested in various fields of computer science. I have built [a website](https://csdiy.wiki/en) to share my self-learning experiences and resources. 
