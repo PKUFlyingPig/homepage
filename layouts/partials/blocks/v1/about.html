@@ -30,10 +30,11 @@
       {{ if site.Params.features.avatar.gravatar }}
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}">
       {{ else if $avatar }}
-      {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+      {{ $avatar_image := $avatar.Fill "3000x3000 Center" }}
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}"
            width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}"
-           src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
+           src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}"
+           >
       {{ end }}
 
       <div class="portrait-title">
@@ -88,7 +89,7 @@
   <div class="col-12 col-lg-8">
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
-    {{ if and $block.Params.widget $block.Title }}<h1>{{ $block.Title | markdownify | emojify }}</h1>{{ end }}
+    {{ if $block.Title }}<h1>{{ $block.Title | markdownify | emojify }}</h1>{{ end }}
 
     <div class="article-style">
       {{ $person_page.Content }}
