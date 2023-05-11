@@ -1,21 +1,16 @@
 ---
-title: 'AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving'
+title: 'Fast Distributed Inference Serving for Large Language Models'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Zhuohan Li
-  - Lianmin Zheng
-  - admin
-  - Vincent Liu
-  - Ying Sheng
+  - Bingyang Wu
+  - Yinmin Zhong
+  - Zili Zhang
+  - Gang Huang
+  - Xuanzhe Liu
   - Xin Jin
-  - Yanping Huang
-  - Zhifeng Chen
-  - Hao Zhang
-  - Joseph E. Gonzalez
-  - Ion Stoica
 
 # Author notes (optional)
 author_notes:
@@ -23,8 +18,8 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: "2023-04-01T00:00:00Z"
-doi: '10.48550/arXiv.2302.11665'
+date: "2023-05-01T00:00:00Z"
+doi: '10.48550/arXiv.2305.05920'
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2023'
@@ -33,16 +28,14 @@ doi: '10.48550/arXiv.2302.11665'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['1']
+publication_types: ['3']
 
-# Publication name and optional abbreviated publication name.
-publication: In *17th USENIX Symposium on Operating Systems Design and Implementation*
-publication_short: In *OSDI 2023*
+publication_short: In *Preprint*
 
-abstract: 'Model parallelism is conventionally viewed as a method to scale a single large deep learning model beyond the memory limits of a single device. In this paper, we demonstrate that model parallelism can be additionally used for the statistical multiplexing of multiple devices when serving multiple models, even when a single model can fit into a single device. Our work reveals a fundamental trade-off between the overhead introduced by model parallelism and the opportunity to exploit statistical multiplexing to reduce serving latency in the presence of bursty workloads. We explore the new trade-off space and present a novel serving system, AlpaServe, that determines an efficient strategy for placing and parallelizing collections of large deep learning models across a distributed cluster. Evaluation results on production workloads show that AlpaServe can process requests at up to 10x higher rates or 6x more burstiness while staying within latency constraints for more than 99% of requests.'
+abstract: 'Large language models (LLMs) power a new generation of interactive AI applications exemplified by ChatGPT. The interactive nature of these applications demand low job completion time (JCT) for model inference. Existing LLM serving systems use run-to-completion processing for inference jobs, which suffers from head-of-line blocking and long JCT. We present FastServe, a distributed inference serving system for LLMs. FastServe exploits the autoregressive pattern of LLM inference to enable preemption at the granularity of each output token. FastServe uses preemptive scheduling to minimize JCT with a novel skip-join Multi-Level Feedback Queue scheduler. Based on the new semi information-agnostic setting of LLM inference, the scheduler leverages the input length information to assign an appropriate initial queue for each arrival job to join. The higher priority queues than the joined queue are skipped to reduce demotions. We design an efficient GPU memory management mechanism that proactively offloads and uploads intermediate states between GPU memory and host memory for LLM inference. We build a system prototype of FastServe based on NVIDIA FasterTransformer. Experimental results show that compared to the state-of-the-art solution Orca, FastServe improves the average and tail JCT by up to 5.1× and 6.4×, respectively.'
 
 # Summary. An optional shortened abstract.
-# tags: []
+tags: []
 
 # Display this page in the Featured widget?
 featured: true
@@ -51,8 +44,8 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: 'https://arxiv.org/pdf/2302.11665.pdf'
-url_code: 'https://github.com/alpa-projects/mms'
+url_pdf: 'https://arxiv.org/pdf/2305.05920.pdf'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
