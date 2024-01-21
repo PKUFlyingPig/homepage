@@ -63,15 +63,15 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/PKUFlyingPig
+    label: Follow me on Github
+    display:
+      header: true
   - icon: envelope
     icon_pack: fas
     link: "mailto:zhongyinmin@pku.edu.cn"
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/PKUFlyingPig
-    label: Follow me on Twitter
-    display:
-      header: true
   # - icon: linkedin
   #   icon_pack: fab
   #   link: https://www.linkedin.com/
