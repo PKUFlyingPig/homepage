@@ -16,15 +16,16 @@ role: Ph.D. Student
 organizations:
   - name: Peking University
     url: https://english.pku.edu.cn/
+    email: zhongyinmin [at] pku.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include machine learning systems and large language models.
 
 # Interests to show in About widget
 interests:
-  - Large Language Models
   - Machine Learning Systems
   - Distributed Systems
+  - Large Language Models
 
 # Education to show in About widget
 education:
@@ -45,12 +46,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: "mailto:zhongyinmin@pku.edu.cn"
-  # - icon: twitter
-  #   icon_pack: fab
-  #   link: https://twitter.com/GeorgeCushen
-  #   label: Follow me on Twitter
-  #   display:
-  #     header: true
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/PKUFlyingPig
+    label: Follow me on Twitter
+    display:
+      header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=UUM_zLwAAAAJ&hl=zh-CN&oi=ao

@@ -58,7 +58,11 @@
           <span>{{ .name }}</span>
           {{ if .url }}</a>{{ end }}
         </h3>
+
+        <h3>{{ .email | markdownify }}</h3>
         {{ end }}
+
+
       </div>
 
       <ul class="network-icon" aria-hidden="true">
