@@ -34,6 +34,7 @@ sections:
         folders:
           - publication
         # exclude_featured: true
+      count: 65536
     design:
       columns: '2'
       view: citation

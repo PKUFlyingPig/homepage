@@ -25,7 +25,7 @@ date: "2024-01-01T00:00:00Z"
 publication_types: ['2']
 
 publication: In *IEEE/ACM Transactions on Networking* (CCF-A)
-publication_short: In *TON 24*
+publication_short: In *TON 2024*
 
 abstract: 'Deep learning (DL) systems suffer from low resource
 utilization due to (i) the monolithic server model that tightly
