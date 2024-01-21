@@ -44,7 +44,7 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: "2024-01-01T00:00:00Z"
+date: "2024-01-02T00:00:00Z"
 # doi: '10.48550/arXiv.2305.05920'
 
 # Schedule page publish date (NOT publication's date).
@@ -56,7 +56,7 @@ date: "2024-01-01T00:00:00Z"
 # 7 = Thesis; 8 = Patent
 publication_types: ['1']
 
-publication: In *21th USENIX Symposium on Networking Systems Design and Implementation*
+publication: In *21th USENIX Symposium on Networking Systems Design and Implementation* (CCF-A)
 publication_short: In *NSDI 24*
 
 abstract: 'We present the design, implementation and engineering experience in building and deploying Optimus, a production system for training large language models (LLMs) at the scale of more than 10,000 GPUs. Training LLMs at this scale brings unprecedented challenges to training efficiency and stability. We take a full-stack approach that co-designs the algorithmic and system components across operator optimization, model block and optimizer design, computation and communication overlapping, data pipeline, and network performance tuning. Maintaining high train efficiency throughout the training process (i.e., stability) is an important consideration in production given the long extent of LLM training jobs. Many hard stability issues only emerge at large scale, and deep observability is the key to address them. We develop a set of diagnosis tools to monitor system components and events deep in the stack, identify root causes, and derive effective techniques to achieve fault tolerance and mitigate stragglers. Optimus achieves 55.2% Model FLOPs Utilization (MFU) when training a 175B LLM model on 12,288 GPUs, improving the MFU by 1.34× compared to Megatron-LM. We share our operational experience in identifying and fixing failures and stragglers. We hope by articulating the problems and sharing our experience from a systems perspective, this work can inspire future LLM systems research.'
