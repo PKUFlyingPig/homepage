@@ -1,16 +1,11 @@
 ---
-title: 'Fast Distributed Inference Serving for Large Language Models'
+title: ''
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Bingyang Wu
   - admin
-  - Zili Zhang
-  - Gang Huang
-  - Xuanzhe Liu
-  - Xin Jin
 
 # Author notes (optional)
 author_notes:
@@ -28,11 +23,12 @@ date: "2023-05-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['3']
+publication_types: ['1']
 
-publication_short: In *Preprint*
+publication: In *17th USENIX Symposium on Operating Systems Design and Implementation*
+publication_short: In *OSDI 23*
 
-abstract: 'Large language models (LLMs) power a new generation of interactive AI applications exemplified by ChatGPT. The interactive nature of these applications demand low job completion time (JCT) for model inference. Existing LLM serving systems use run-to-completion processing for inference jobs, which suffers from head-of-line blocking and long JCT. We present FastServe, a distributed inference serving system for LLMs. FastServe exploits the autoregressive pattern of LLM inference to enable preemption at the granularity of each output token. FastServe uses preemptive scheduling to minimize JCT with a novel skip-join Multi-Level Feedback Queue scheduler. Based on the new semi information-agnostic setting of LLM inference, the scheduler leverages the input length information to assign an appropriate initial queue for each arrival job to join. The higher priority queues than the joined queue are skipped to reduce demotions. We design an efficient GPU memory management mechanism that proactively offloads and uploads intermediate states between GPU memory and host memory for LLM inference. We build a system prototype of FastServe based on NVIDIA FasterTransformer. Experimental results show that compared to the state-of-the-art solution Orca, FastServe improves the average and tail JCT by up to 5.1× and 6.4×, respectively.'
+abstract: ''
 
 # Summary. An optional shortened abstract.
 tags: []
@@ -44,7 +40,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: 'https://arxiv.org/pdf/2305.05920.pdf'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
