@@ -61,7 +61,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: ''
+url_pdf: 'https://www.computer.org/csdl/journal/nt/5555/01/10414009/1TY3Mx0FKtG'
 url_code: ''
 url_dataset: ''
 url_poster: ''

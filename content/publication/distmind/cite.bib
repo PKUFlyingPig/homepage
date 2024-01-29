@@ -1,0 +1,16 @@
+@ARTICLE {10414009,
+author = {X. Jin and Z. Bai and Z. Zhang and Y. Zhu and Y. Zhong and X. Liu},
+journal = {IEEE/ACM Transactions on Networking},
+title = {DistMind: Efficient Resource Disaggregation for Deep Learning Workloads},
+year = {5555},
+volume = {},
+number = {01},
+issn = {1558-2566},
+pages = {1-16},
+abstract = {Deep learning (DL) systems suffer from low resource utilization due to 1) monolithic server model that tightly couples compute and memory; and 2) limited sharing between different inference applications, and across inference and training, because of strict service level objectives (SLOs). To address this problem, we present DistMind, a disaggregated DL system that enables efficient multiplexing of DL applications with near-optimal resource utilization. DistMind decouples compute from host memory, and exposes the abstractions of a GPU pool and a memory pool, each of which can be independently provisioned. The key challenge is to dynamically allocate GPU resources to different applications based on their real-time demands while meeting strict SLOs. We tackle this challenge by exploiting the power of high-speed 100 Gbps networks, and design three-stage pipelining, cache-aware load balancing, and DNN-aware sharding mechanisms based on the characteristics of DL workloads, to achieve millisecond-scale application loading overhead and improve system efficiency. We have implemented a prototype of DistMind and integrated it with PyTorch. Experimental results on AWS EC2 show that DistMind achieves near 100% resource utilization, and compared with NVIDIA MPS and Ray, DistMind improves the throughput by up to 279% and reduces the inference latency by up to 94%.},
+keywords = {graphics processing units;servers;resource management;memory management;training;computational modeling;task analysis},
+doi = {10.1109/TNET.2024.3355010},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {jan}
+}
