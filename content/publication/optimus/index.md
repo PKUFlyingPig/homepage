@@ -1,5 +1,5 @@
 ---
-title: 'Scaling Large Language Model Training to More Than 10,000 GPUs'
+title: 'MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -71,8 +71,8 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/abs/2402.15627'
+url_code: 'https://github.com/volcengine/veScale'
 url_dataset: ''
 url_poster: ''
 url_project: ''
