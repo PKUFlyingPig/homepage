@@ -71,7 +71,7 @@ social:
     link: "mailto:zhongyinmin@pku.edu.cn"
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/PKUFlyingPig
+    link: https://twitter.com/YinminZhong
   # - icon: linkedin
   #   icon_pack: fab
   #   link: https://www.linkedin.com/
