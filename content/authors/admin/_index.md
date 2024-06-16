@@ -41,8 +41,12 @@ education:
 experience:
   courses:
     - course: Research Intern
+      institution: StepFun System Team
+      year: June 2024 - Present
+ 
+    - course: Research Intern
       institution: ByteDance AML Team
-      year: Aug 2023 - Present
+      year: Aug 2023 - May 2024
     
     - course: Research Intern
       institution: Alibaba DAMO Academy
@@ -80,7 +84,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/Resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -91,4 +95,4 @@ I am a second-year Ph.D. student studying computer science in the <a href=https:
 
 I have a broad interest in building efficient systems for training and serving deep learning models, with a primary focus on large language models (LLMs) currently.
 
-I am also an enthusiastic self-learner and interested in various fields of computer science. I have built [a website](https://csdiy.wiki/en) to share my self-learning experiences and resources. 
+I am also an enthusiastic self-learner and interested in various fields of computer science. I have built [a website](https://csdiy.wiki) to share my self-learning experiences and resources. 

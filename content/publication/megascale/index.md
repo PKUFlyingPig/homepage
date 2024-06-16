@@ -71,14 +71,14 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: 'https://arxiv.org/abs/2402.15627'
+url_pdf: 'https://arxiv.org/pdf/2402.15627'
 url_code: 'https://github.com/volcengine/veScale'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'https://www.usenix.org/system/files/nsdi24_slides-jiang_ziheng.pdf'
 url_source: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=qa6q7J0hVUI'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

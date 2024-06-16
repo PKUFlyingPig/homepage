@@ -51,7 +51,7 @@ url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: 'https://www.usenix.org/conference/osdi23/presentation/li-zhouhan'
+url_video: 'https://www.youtube.com/watch?v=k0fuwdkN4LA&t=1s'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
