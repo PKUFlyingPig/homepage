@@ -1,24 +1,20 @@
 ---
-title: 'Fast Distributed Inference Serving for Large Language Models'
+title: 'DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal Large Language Models'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Bingyang Wu
-  - admin
   - Zili Zhang
-  - Gang Huang
-  - Xuanzhe Liu
+  - admin
+  - Ranchen Ming
+  - Hanpeng Hu
+  - Jianjian Sun
+  - Zheng Ge
+  - Yibo Zhu
   - Xin Jin
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: "2023-05-01T00:00:00Z"
+date: "2024-09-01T00:00:00Z"
 # doi: '10.48550/arXiv.2305.05920'
 
 # Schedule page publish date (NOT publication's date).
@@ -32,7 +28,8 @@ publication_types: ['3']
 
 publication_short: In *Preprint*
 
-abstract: 'Large language models (LLMs) power a new generation of interactive AI applications exemplified by ChatGPT. The interactive nature of these applications demand low job completion time (JCT) for model inference. Existing LLM serving systems use run-to-completion processing for inference jobs, which suffers from head-of-line blocking and long JCT. We present FastServe, a distributed inference serving system for LLMs. FastServe exploits the autoregressive pattern of LLM inference to enable preemption at the granularity of each output token. FastServe uses preemptive scheduling to minimize JCT with a novel skip-join Multi-Level Feedback Queue scheduler. Based on the new semi information-agnostic setting of LLM inference, the scheduler leverages the input length information to assign an appropriate initial queue for each arrival job to join. The higher priority queues than the joined queue are skipped to reduce demotions. We design an efficient GPU memory management mechanism that proactively offloads and uploads intermediate states between GPU memory and host memory for LLM inference. We build a system prototype of FastServe based on NVIDIA FasterTransformer. Experimental results show that compared to the state-of-the-art solution Orca, FastServe improves the average and tail JCT by up to 5.1× and 6.4×, respectively.'
+abstract: 'Multimodal large language models (LLMs) have demonstrated significant potential in a wide range of AI applications. Yet, training multimodal LLMs suffers from low efficiency and scalability, due to the inherent model heterogeneity and data heterogeneity across different modalities.
+We present DistTrain, an efficient and adaptive framework to reform the training of multimodal large language models on large-scale clusters. The core of DistTrain is the disaggregated training technique that exploits the characteristics of multimodal LLM training to achieve high efficiency and scalability. Specifically, it leverages disaggregated model orchestration and disaggregated data reordering to address model and data heterogeneity respectively. We also tailor system optimization for multimodal LLM training to overlap GPU communication and computation. We evaluate DistTrain across different sizes of multimodal LLMs on a large-scale production cluster with thousands of GPUs. The experimental results show that DistTrain achieves 54.7% Model FLOPs Utilization (MFU) when training a 72B multimodal LLM on 1172 GPUs and outperforms Megatron-LM by up to 2.2× on throughput. The ablation study shows the main techniques of DistTrain are both effective and lightweight.'
 
 # Summary. An optional shortened abstract.
 tags: []
@@ -44,7 +41,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: 'https://arxiv.org/pdf/2305.05920.pdf'
+url_pdf: 'https://arxiv.org/pdf/2408.04275'
 url_code: ''
 url_dataset: ''
 url_poster: ''
