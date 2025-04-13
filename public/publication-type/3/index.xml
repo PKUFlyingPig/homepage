@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Yinmin Zhong</title>
+    <link>http://localhost:1313/publication-type/3/</link>
+      <atom:link href="http://localhost:1313/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_ca0d2a363ea90ad0.png</url>
+      <title>3</title>
+      <link>http://localhost:1313/publication-type/3/</link>
+    </image>
+    
+    <item>
+      <title>RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion</title>
+      <link>http://localhost:1313/publication/rlhfuse/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rlhfuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DistTrain: Addressing Model and Data Heterogeneity with Disaggregated Training for Multimodal Large Language Models</title>
+      <link>http://localhost:1313/publication/distrain/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/distrain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fast Distributed Inference Serving for Large Language Models</title>
+      <link>http://localhost:1313/publication/fastserve/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/fastserve/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
