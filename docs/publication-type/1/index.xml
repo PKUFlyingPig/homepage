@@ -5,12 +5,20 @@
     <link>http://localhost:1313/publication-type/1/</link>
       <atom:link href="http://localhost:1313/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu_ca0d2a363ea90ad0.png</url>
       <title>1</title>
       <link>http://localhost:1313/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>RLHFuse: Efficient RLHF Training for Large Language Models with Inter- and Intra-Stage Fusion</title>
+      <link>http://localhost:1313/publication/rlhfuse/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rlhfuse/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving</title>
@@ -31,7 +39,7 @@
     <item>
       <title>MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs</title>
       <link>http://localhost:1313/publication/megascale/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/megascale/</guid>
       <description></description>
     </item>
