@@ -6,7 +6,6 @@ on:
 
 jobs:
   update:
-    if: github.repository_owner == 'wowchemy'
     runs-on: ubuntu-latest
     steps:
       - uses: wowchemy/gh-action-updater@v1
